@@ -1,0 +1,29 @@
+<section id="contact-us" class="mt-5">
+    <div class="container-fluid background1">
+      <h3 class="text-center py-4">Contact Us</h3>
+      <div class="row">
+        <div class="col-md-12">
+          <form action="/process-contact-form" method="post">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Enter Email address</label>
+              <input name="email" type="email" class="form-control" id="exampleFormControlInput1"
+                placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="contactNumberField" class="form-label">Your Contact Number</label>
+              <textarea name="contact" class="form-control" id="contactNumberField" rows="1"></textarea>
+            </div>
+            <div class="form-floating">
+              <textarea name="query" style="height:250px" class="form-control" placeholder="Leave a query here"
+                id="floatingTextarea"></textarea>
+              <label for="floatingTextarea">Enter your query</label>
+            </div>
+            <section class="text-center mt-4">
+              <button type="submit" class="btn btn-primary mb-3">Submit</button>
+            </section>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
